@@ -32,4 +32,11 @@ https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
 I did look at 3d printing the basket (https://www.thingiverse.com/thing:5905166) but I don't have a printer or easy access to one. I considered using https://www.pcbway.com/ which was actually not that expensive but in the end I just went with the basket on ebay.
 I like to write Python I built https://github.com/lvgl-micropython/lvgl_micropython for the ESP32 CYD board and flashed it using Thonny.
 I only wanted to have 1 plug so I used the Buck Converter Voltage Regulator to convert 12v from the power suppy to 5v for the CYD 5v power see (https://www.yuxun.com/how-to-wire-a-usb-c-cable-for-power.html) and 12v to the stepper expansion board for the motor.
+1. Disassemble churner mechanism removing the gears and crank handle.
+2. Remove one of the L brackets bolted to the lid of the churner.
+3. Drill matching holes in one of the churner L brackets and the motor mount L bracket along with a 1/2in strip of plywood. The plywood goes between the motor L bracket and the churner L bracket to align the motor shaft with the churner shaft. When drilling the stainless steel churner L bracket use spray bottle with water to cool the metal the make the drilling easier. I used a drill press to drill the holes.
+4. Use some small button head bolts to connect the motor mount to the churner L bracket with the plywood sandwiched in between.
+5. Attach the motor to the mount
+6. Put a flexible coupling on the motor shaft
+7. Attach he motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the screws.
 
