@@ -11,7 +11,7 @@ https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src
 * 42mm Stepper Motor Mounting L Bracket with M3 Screw +Gasket(2Pcs)
   https://www.amazon.com/dp/B07HN8ZS8W?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/L_bracket.jpg">]
 * DAOKAI 42 Stepper Motor Driver Expansion Board DRV8825 A4988 3D Printer Control Shield Expansion Module with A4988 + DRB8825 Stepper Motor Driver, for 3D Printer
-  https://www.amazon.com/your-orders/orders?startIndex=0&ref_=ppx_yo2ov_dt_b_pagination_2_1
+  https://www.amazon.com/your-orders/orders?startIndex=0&ref_=ppx_yo2ov_dt_b_pagination_2_1 [<img src="images/stepper_expansion_board.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * STEPPERONLINE Nema 17 Stepper Motor Bipolar 2A 59Ncm(84oz.in) 48mm Body 4-Lead W/ 1m Cable and Connector Compatible with 3D Printer/CNC
 https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
@@ -20,5 +20,5 @@ https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 * Basket Watch Cleaning Machine DIA 6.9cm HEIGHT 5.8cm Stainless Steel https://www.ebay.com/itm/297472559245 [<img src="images/basket.jpg">](https://github.com/tedx/watch_part_washer/)
 
-* LM2596 LM2596S DC-DC Buck Converter Voltage Regulator Adjustable 4.0-40V to 1.25-37V 2A Power Supply Module with LED Voltmeter Display (Pack of 2) https://www.amazon.com/dp/B0D2TS7CBN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 [<img src="images/stepper_expansion_board.jpg">](https://github.com/tedx/watch_part_washer/)
+* LM2596 LM2596S DC-DC Buck Converter Voltage Regulator Adjustable 4.0-40V to 1.25-37V 2A Power Supply Module with LED Voltmeter Display (Pack of 2) https://www.amazon.com/dp/B0D2TS7CBN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 
   
