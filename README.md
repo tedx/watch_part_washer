@@ -3,7 +3,7 @@ Relatively inexpensive watch part washer made from off the shelf parts
 
 ## Parts
 * Premium Butter Churner – Makes Fresh Homemade Butter in 10 Minutes | 32oz Glass Jar with Stainless Steel Paddle | Hand Crank Butter Maker | Easy to Use & Clean | Perfect for Family Kitchen Fun
-https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title
+https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/churner.jpg">]
 
 * ESP32 Display 2.8 inch, ESP32-32E WiFi+BT Dual-core TFT Module with Acrylic Case, ESP32 Development Board ILI9341 Driver 240X320 Smart LCD Display Screen for Arduino IOT
   https://www.amazon.com/dp/B0FCXTPCQ6?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
@@ -20,5 +20,5 @@ https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 * Basket Watch Cleaning Machine DIA 6.9cm HEIGHT 5.8cm Stainless Steel https://www.ebay.com/itm/297472559245 [<img src="images/basket.jpg">](https://github.com/tedx/watch_part_washer/)
 
-* LM2596 LM2596S DC-DC Buck Converter Voltage Regulator Adjustable 4.0-40V to 1.25-37V 2A Power Supply Module with LED Voltmeter Display (Pack of 2) https://www.amazon.com/dp/B0D2TS7CBN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 
+* LM2596 LM2596S DC-DC Buck Converter Voltage Regulator Adjustable 4.0-40V to 1.25-37V 2A Power Supply Module with LED Voltmeter Display (Pack of 2) https://www.amazon.com/dp/B0D2TS7CBN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 [<img src="images/stepper_expansion_board.jpg">]
   
