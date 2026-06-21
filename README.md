@@ -37,6 +37,6 @@ I only wanted to have 1 plug so I used the Buck Converter Voltage Regulator to c
 3. Drill matching holes in one of the churner L brackets and the motor mount L bracket along with a 1/2in strip of plywood. The plywood goes between the motor L bracket and the churner L bracket to align the motor shaft with the churner shaft. When drilling the stainless steel churner L bracket use spray bottle with water to cool the metal the make the drilling easier. I used a drill press to drill the holes.
 4. Use some small button head bolts to connect the motor mount to the churner L bracket with the plywood sandwiched in between.
 5. Attach the motor to the mount
-6. Put a flexible coupling on the motor shaft
-7. Attach he motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the screws.
+6. Attach a flexible coupling on the motor shaft. Slide the coupling on to the motor shaft until it is about halfway into the coupling and tighten the allen screws
+7. Attach he motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the allen screws.
 
