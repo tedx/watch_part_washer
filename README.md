@@ -1,5 +1,5 @@
 # Watch Part Washer
-Relatively inexpensive watch part washer made from off the shelf parts
+Relatively inexpensive watch part washer made from off the shelf parts.
 
 ## Parts
 * Premium Butter Churner – Makes Fresh Homemade Butter in 10 Minutes | 32oz Glass Jar with Stainless Steel Paddle | Hand Crank Butter Maker | Easy to Use & Clean | Perfect for Family Kitchen Fun
@@ -26,3 +26,10 @@ https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
   
 
   
+
+## Build
+
+I did look at 3d printing the basket (https://www.thingiverse.com/thing:5905166) but I don't have a printer or easy access to one. I considered using https://www.pcbway.com/ which was actually not that expensive but in the end I just went with the basket on ebay.
+Since I like to write Python I built https://github.com/lvgl-micropython/lvgl_micropython for the ESP32 CYD board and flashed it using Thonny.
+Since I only wanted to have 1 plug I used the Buck Converter Voltage Regulator to convert 12v from the power suppy to 5v for the CYD 5v power see (https://www.yuxun.com/how-to-wire-a-usb-c-cable-for-power.html) and the 12v to the stepper expansion board for the motor.
+
