@@ -18,6 +18,6 @@ https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title
 https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
 * uxcell 4Pcs Flexible Couplings 5mm to 5mm Aluminum Alloy Joint Connector, Flexible Shaft Couplings Motor Coupler for 3D Printer CNC Machine Motor Guide DIY Encoder D15 x L20mm
   https://www.amazon.com/dp/B0G495NCLC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
-* Basket Watch Cleaning Machine DIA 6.9cm HEIGHT 5.8cm Stainless Steel https://www.ebay.com/itm/297472559245
+* Basket Watch Cleaning Machine DIA 6.9cm HEIGHT 5.8cm Stainless Steel https://www.ebay.com/itm/297472559245 [<img src="images/basket.jpg">](https://github.com/tedx/watch_part_washer/)
 
   
