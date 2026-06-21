@@ -6,7 +6,7 @@ Relatively inexpensive watch part washer made from off the shelf parts
 https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/churner.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * ESP32 Display 2.8 inch, ESP32-32E WiFi+BT Dual-core TFT Module with Acrylic Case, ESP32 Development Board ILI9341 Driver 240X320 Smart LCD Display Screen for Arduino IOT
-  https://www.amazon.com/dp/B0FCXTPCQ6?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+  https://www.amazon.com/dp/B0FCXTPCQ6?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 [<img src="images/cyd.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * 42mm Stepper Motor Mounting L Bracket with M3 Screw +Gasket(2Pcs)
   https://www.amazon.com/dp/B07HN8ZS8W?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/L_bracket.jpg">]
