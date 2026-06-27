@@ -1,6 +1,6 @@
 # Watch Part Washer
 Relatively inexpensive watch part washer made from off the shelf parts.
-My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc... I did it because I could get part like the L bracket that simplified construction. So it probably cacn be done cheaper.
+My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc... I did it because I could get parts like the L bracket that simplified construction. So it probably can be done cheaper.
 
 ## Parts
 * Premium Butter Churner – Makes Fresh Homemade Butter in 10 Minutes | 32oz Glass Jar with Stainless Steel Paddle | Hand Crank Butter Maker | Easy to Use & Clean | Perfect for Family Kitchen Fun
