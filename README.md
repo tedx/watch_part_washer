@@ -19,7 +19,7 @@ https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
 * uxcell 4Pcs Flexible Couplings 5mm to 5mm Aluminum Alloy Joint Connector, Flexible Shaft Couplings Motor Coupler for 3D Printer CNC Machine Motor Guide DIY Encoder D15 x L20mm
   https://www.amazon.com/dp/B0G495NCLC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 [<img src="images/uxcell_coupling.jpg">](https://github.com/tedx/watch_part_washer/)
 
-* Basket Watch Cleaning Machine DIA 6.9cm HEIGHT 5.8cm Stainless Steel https://www.ebay.com/itm/297472559245 [<img src="images/basket.jpg">](https://github.com/tedx/watch_part_washer/)
+* Basket Watch Cleaning Machine DIA 6.9cm HEIGHT 5.8cm Stainless Steel https://www.ebay.com/itm/375250950984?_skw=Basket+Watch+Cleaning+Machine+DIA+6.9cm+HEIGHT+5.8cm+Stainless+Steel+%7C+USA+STOCK+T&itmmeta=01KWG1XX0FQCYW7F6HQGKACZPR&hash=item575eb31b48:g:c8IAAOSwlh5lyaAd&itmprp=enc%3AAQALAAABMGfYFPkwiKCW4ZNSs2u11xBFeXlwbHpRPrrz61LbY4Jz3BSHxbXul6HpOza%2FKF2jneY4dm%2BXX0ExpqgtjATtYJg5KnS5wVsB2%2Bo168vPR45id--uecCXOrO9S%2BkU5MpJaR6dBrezrQubWTJcBt39kLX8wmX%2FBj8IA41Ck%2BPbi31QGwgF8HFJ7DE%2BDIziciOh8fAnZ%2Bhc5N%2F0SpJaRu7JInMzIy%2B5OXwxnHXy%2B9ShCfVW6EskLvAoAbjoKy%2FcAz3RV%2FxOG5L%2BwBL7ueJDCduq5bui5u800UzemkNbUKfjJoy9lZk22gCvCoynegDHdWrH%2BGHerULk1KmL%2BpfaZqpG%2Bxa3BIWksJSqiPlXSCF7ZND2ZXPS03%2F0a2ZBdD4HTV0XY00Z9WbVC4oJVqobgadNyag%3D%7Ctkp%3ABFBMrND3geRn [<img src="images/basket.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * LM2596 LM2596S DC-DC Buck Converter Voltage Regulator Adjustable 4.0-40V to 1.25-37V 2A Power Supply Module with LED Voltmeter Display (Pack of 2) https://www.amazon.com/dp/B0D2TS7CBN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 [<img src="images/voltage_converter.jpg">](https://github.com/tedx/watch_part_washer/)
 
