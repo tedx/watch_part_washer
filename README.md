@@ -39,7 +39,7 @@ I only wanted to have 1 plug so I used the Buck Converter Voltage Regulator to c
 4. Use some small button head bolts to connect the motor mount to the churner L bracket with the plywood sandwiched in between.
 5. Attach the motor to the mount
 6. Attach a flexible coupling on the motor shaft. Slide the coupling on to the motor shaft until it is about halfway into the coupling and tighten the allen screws
-7. Attach he motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the allen screws.
+7. Attach the motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the allen screws.
 
 [<img src="images/20260701_170915.jpg">](https://github.com/tedx/watch_part_washer/)
 [<img src="images/20260701_170921.jpg">](https://github.com/tedx/watch_part_washer/)
