@@ -14,26 +14,18 @@ import task_handler
 import time
 import math
 import asyncio
+from select import poll, POLLIN
 
-# ============== Customize settings ============== #
-# The following values need to be customized.
-
-# Switch width and height for portrait mode.
 _DISPLAY_WIDTH = micropython.const(320)
 _DISPLAY_HEIGHT = micropython.const(240)
-# Try different values from rotation table, see below.
 _DISPLAY_ROT = micropython.const(0x80)
-# Set to True if red and blue are switched.
 _DISPLAY_BGR = micropython.const(0)
-# May have to be set to 0 if both RGB / BGR mode give bad results.
 _DISPLAY_RGB565_BYTE_SWAP = micropython.const(1)
-# Allow touch calibration. Set to True when display works correctly.
 _ALLOW_TOUCH_CAL = micropython.const(1)
-# Show marker at current touch coordinates.
 _DISPLAY_SHOW_TOUCH_INDICATOR = micropython.const(1)
 
 # ============== Display / Indev initialization ============== #
-# no need to change anything below here
+
 _SPI_BUS_HOST = micropython.const(1)
 _SPI_BUS_MOSI = micropython.const(13)
 _SPI_BUS_MISO = micropython.const(12)
@@ -50,6 +42,7 @@ _DISPLAY_BUS_CS = micropython.const(15)
 _DISPLAY_BACKLIGHT_PIN = micropython.const(21)
 
 s1 = None
+stopFlag = asyncio.ThreadSafeFlag()
 agitate_click_event = asyncio.Event()
 stop_click_event = asyncio.Event()
 
@@ -175,27 +168,50 @@ class Stepper:
 
 
 # Define event callback function.
-def agitate():
-    global s1
-    print("agitate")
-    s1.free_run(1)
-    time.sleep(10.0)
-    s1.free_run(-1)
-    time.sleep(10.0)
-    s1.free_run(0)
+def ready(tsf, poller):  # Return a function which returns tsf status
+    r = (tsf, POLLIN)
+    poller.register(*r)
 
-def stop():
-    global s1
-    print("stop")
-    s1.stop()
+    def is_rdy():
+        return r in poller.ipoll(0)  # Immediate return
+
+    return is_rdy
 
 async def handle_agitate_button_clicks():
     while True:
         await agitate_click_event.wait() # Wait for the click
         
-        print("Agitate button was clicked! Doing async work...")
-        agitate()
-        await asyncio.sleep(1)   # Non-blocking delay
+        print("Agitate button was clicked.")
+
+        mpoll = poll()
+        stopNow = ready(stopFlag, mpoll)  # Create a ready function
+
+        s1.free_run(1)
+        for _ in range(10):
+            if stopNow():
+                print("stop flag set")
+                s1.stop()
+                print("agitate stopped")
+                break
+            await asyncio.sleep(1)
+        if stopNow():
+            stopFlag.clear()
+            agitate_click_event.clear()      # Reset the event for the next click
+            continue
+            
+        s1.free_run(-1)
+        for _ in range(10):
+            if stopNow():
+                print("stop flag set")
+                s1.stop()
+                print("agitate stopped")
+                break
+            await asyncio.sleep(1)
+        if stopNow():
+            stopFlag.clear()
+            agitate_click_event.clear()      # Reset the event for the next click
+            continue
+        s1.free_run(0)
         agitate_click_event.clear()      # Reset the event for the next click
         print("Async agitate task finished.")
 
@@ -203,9 +219,10 @@ async def handle_stop_button_clicks():
     while True:
         await stop_click_event.wait() # Wait for the click
         
-        print("Stop button was clicked! Doing async work...")
-        stop()
-        await asyncio.sleep(1)   # Non-blocking delay
+        print("Stop button was clicked.")
+
+        stopFlag.set()
+        s1.stop()
         stop_click_event.clear()      # Reset the event for the next click
         print("Async stop task finished.")
 
@@ -218,10 +235,9 @@ def stop_button_event_handler(evt):
     stop_click_event.set()
 
 async def main():
-    task1 = asyncio.create_task(handle_agitate_button_clicks())
-    task2 = asyncio.create_task(handle_stop_button_clicks())
-    await asyncio.gather(task1, task2)
-
+    await asyncio.gather(handle_agitate_button_clicks(), handle_stop_button_clicks())
+    
+    
 if __name__ == "__main__":
     
     spi_bus = machine.SPI.Bus(
@@ -262,7 +278,6 @@ if __name__ == "__main__":
         rgb565_byte_swap=_DISPLAY_RGB565_BYTE_SWAP
     )
 
-    # The rotation table MUST be defined
     display._ORIENTATION_TABLE = (
         _DISPLAY_ROT, # this value sets the rotation
         0x0, # placeholder
@@ -270,8 +285,6 @@ if __name__ == "__main__":
         0x0 # placeholder
     )
 
-    # lv.DISPLAY_ROTATION._0 uses the first value from the
-    # display._ORIENTATION_TABLE to set display rotation
     display.set_rotation(lv.DISPLAY_ROTATION._0)
     display.set_power(True)
     display.init(1)
@@ -285,7 +298,6 @@ if __name__ == "__main__":
 
     s1 = Stepper(27, 22, steps_per_rev=200, speed_sps=750, timer_id=1)
 
-    # ============== End of display / touch (indev) setup ============== #
     scrn = lv.screen_active()
     scrn.set_style_bg_color(lv.color_white(), lv.PART.MAIN)
     scrn.remove_flag(lv.obj.FLAG.SCROLLABLE)
@@ -306,5 +318,5 @@ if __name__ == "__main__":
     agitate_btn.add_event_cb(agitate_button_event_handler, lv.EVENT.CLICKED, None)
     stop_btn.add_event_cb(stop_button_event_handler, lv.EVENT.CLICKED, None)
 
-    task_handler.TaskHandler()
+    task_handler.TaskHandler()    
     asyncio.run(main())
