@@ -12,7 +12,7 @@ https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src
 * 42mm Stepper Motor Mounting L Bracket with M3 Screw +Gasket(2Pcs)
   https://www.amazon.com/dp/B07HN8ZS8W?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/L_bracket.jpg">]
 * DAOKAI 42 Stepper Motor Driver Expansion Board DRV8825 A4988 3D Printer Control Shield Expansion Module with A4988 + DRB8825 Stepper Motor Driver, for 3D Printer
-  https://www.amazon.com/your-orders/orders?startIndex=0&ref_=ppx_yo2ov_dt_b_pagination_2_1 [<img src="images/stepper_expansion_board.jpg">](https://github.com/tedx/watch_part_washer/)
+  https://www.amazon.com/dp/B0CR3ZD91Y?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/stepper_expansion_board.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * STEPPERONLINE Nema 17 Stepper Motor Bipolar 2A 59Ncm(84oz.in) 48mm Body 4-Lead W/ 1m Cable and Connector Compatible with 3D Printer/CNC
 https://www.amazon.com/dp/B00PNEQKC0?ref=ppx_yo2ov_dt_b_fed_asin_title
