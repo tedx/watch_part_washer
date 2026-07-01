@@ -1,6 +1,6 @@
 # Watch Part Washer
 Relatively inexpensive watch part washer made from off the shelf parts.\
-My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc... I did it because I could get parts like the L bracket that simplified construction. So it probably can be done cheaper.
+My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc... I did it because I could get parts like the L bracket that simplified construction. So it probably can be done cheaper. I tried to upload a video of it working but it was to big :(
 
 ## Parts
 * Premium Butter Churner – Makes Fresh Homemade Butter in 10 Minutes | 32oz Glass Jar with Stainless Steel Paddle | Hand Crank Butter Maker | Easy to Use & Clean | Perfect for Family Kitchen Fun
@@ -41,5 +41,5 @@ I only wanted to have 1 plug so I used the Buck Converter Voltage Regulator to c
 6. Attach a flexible coupling on the motor shaft. Slide the coupling on to the motor shaft until it is about halfway into the coupling and tighten the allen screws
 7. Attach he motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the allen screws.
 
-I'm still playing with the code in regards to agitation (the number of rotations in each direction and how many time that is repeated) and making stop actually stop the agitation.
+
 
