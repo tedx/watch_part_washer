@@ -4,7 +4,7 @@ My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc
 
 ## Parts
 * Premium Butter Churner – Makes Fresh Homemade Butter in 10 Minutes | 32oz Glass Jar with Stainless Steel Paddle | Hand Crank Butter Maker | Easy to Use & Clean | Perfect for Family Kitchen Fun
-https://www.amazon.com/dp/B0C1Z4KVRW?ref=ppx_yo2ov_dt_b_fed_asin_title [<img src="images/churner.jpg">](https://github.com/tedx/watch_part_washer/)
+https://www.amazon.com/dp/B0C1Z4KVRW [<img src="images/churner.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * ESP32 Display 2.8 inch, ESP32-32E WiFi+BT Dual-core TFT Module with Acrylic Case, ESP32 Development Board ILI9341 Driver 240X320 Smart LCD Display Screen for Arduino IOT
   https://www.amazon.com/dp/B0FCXTPCQ6?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 [<img src="images/cyd.jpg">](https://github.com/tedx/watch_part_washer/)
