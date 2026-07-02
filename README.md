@@ -18,7 +18,8 @@ https://www.amazon.com/dp/B0C1Z4KVRW [<img src="images/churner.jpg">](https://gi
   https://www.amazon.com/dp/B0CR3ZD91Y [<img src="images/stepper_expansion_board.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * STEPPERONLINE Nema 17 Stepper Motor Bipolar 2A 59Ncm(84oz.in) 48mm Body 4-Lead W/ 1m Cable and Connector Compatible with 3D Printer/CNC
-https://www.amazon.com/dp/B00PNEQKC0
+https://www.amazon.com/dp/B00PNEQKC0 [<img src="images/nema17_motor.jpg">](https://github.com/tedx/watch_part_washer/)
+
 * uxcell 4Pcs Flexible Couplings 5mm to 5mm Aluminum Alloy Joint Connector, Flexible Shaft Couplings Motor Coupler for 3D Printer CNC Machine Motor Guide DIY Encoder D15 x L20mm
   https://www.amazon.com/dp/B0G495NCLC [<img src="images/uxcell_coupling.jpg">](https://github.com/tedx/watch_part_washer/)
 
