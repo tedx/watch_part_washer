@@ -1,6 +1,9 @@
-# Watch Part Washer
-Relatively inexpensive watch part washer made from off the shelf parts.\
-My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc... I did it because I could get parts like the L bracket that simplified construction. So it probably can be done cheaper. I tried to upload a video of it working but it was to big :(
+[<img src="images/20260701_170915.jpg">](https://github.com/tedx/watch_part_washer/)
+[<img src="images/20260701_170921.jpg">](https://github.com/tedx/watch_part_washer/)
+
+# Automated Watch Part Washer
+Relatively inexpensive automated watch part washer made from off the shelf parts.\
+My buddy Frank says I over engineered it i.e. stepper motor wasn't necessary etc... I did it because I could get parts like the L bracket that simplified construction. So it probably can be done cheaper. I tried to upload a video of it working but it was too big :(
 
 ## Parts
 * Premium Butter Churner – Makes Fresh Homemade Butter in 10 Minutes | 32oz Glass Jar with Stainless Steel Paddle | Hand Crank Butter Maker | Easy to Use & Clean | Perfect for Family Kitchen Fun
@@ -24,9 +27,7 @@ https://www.amazon.com/dp/B00PNEQKC0
 * LM2596 LM2596S DC-DC Buck Converter Voltage Regulator Adjustable 4.0-40V to 1.25-37V 2A Power Supply Module with LED Voltmeter Display (Pack of 2) https://www.amazon.com/dp/B0D2TS7CBN [<img src="images/voltage_converter.jpg">](https://github.com/tedx/watch_part_washer/)
 
 * Old 12v power supply
-  
 
-  
 
 ## Build
 
@@ -40,7 +41,3 @@ I only wanted to have 1 plug so I used the Buck Converter Voltage Regulator to c
 5. Attach the motor to the mount
 6. Attach a flexible coupling on the motor shaft. Slide the coupling on to the motor shaft until it is about halfway into the coupling and tighten the allen screws
 7. Attach the motor assembly to the churner. Slide the end of the churner shaft through the lid into the coupling and tighten the allen screws.
-
-[<img src="images/20260701_170915.jpg">](https://github.com/tedx/watch_part_washer/)
-[<img src="images/20260701_170921.jpg">](https://github.com/tedx/watch_part_washer/)
-
